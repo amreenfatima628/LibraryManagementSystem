@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomerListDialog</class>
+ <widget class="QDialog" name="CustomerListDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableCustomers">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>1</y>
+     <width>411</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="columnCount">
+    <number>4</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>Id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Contact</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Created At</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
